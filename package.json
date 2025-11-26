@@ -1,0 +1,37 @@
+{
+  "name": "@smartexpense/web",
+  "version": "1.0.0",
+  "description": "SmartExpense Web App - AI-powered expense tracking and budget management interface",
+  "author": "SmartExpense Team",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^15.0.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "axios": "^1.6.5",
+    "recharts": "^2.10.3",
+    "date-fns": "^3.0.6",
+    "zustand": "^4.4.7",
+    "react-hook-form": "^7.49.3",
+    "react-hot-toast": "^2.4.1",
+    "lucide-react": "^0.303.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5",
+    "eslint": "^8",
+    "eslint-config-next": "^15.0.3"
+  }
+}
